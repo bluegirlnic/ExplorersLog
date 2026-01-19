@@ -24,7 +24,7 @@ export function getTodayDateString(): string {
 
 export function getDaysAgo(days: number): string {
   const date = new Date();
-  date.setDate(date.setDate() - days);
+  date.setDate(date.getDate() - days);
   return date.toISOString().split('T')[0];
 }
 

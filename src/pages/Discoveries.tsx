@@ -6,7 +6,7 @@ import { Button } from '../components/common/Button';
 import { Card } from '../components/common/Card';
 import { Dialog } from '@headlessui/react';
 import { X } from 'lucide-react';
-import { CreateDiscoveryInput, DiscoveryType } from '../types';
+import type { CreateDiscoveryInput, DiscoveryType } from '../types';
 import { formatRelativeTime } from '../utils/helpers';
 
 export function Discoveries() {

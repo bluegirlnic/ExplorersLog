@@ -2,10 +2,9 @@ import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { X } from 'lucide-react';
 import { useDailyStore } from '../../stores/useDailyStore';
-import { Weather } from '../../types';
+import type { Weather } from '../../types';
 import { WEATHER_CONFIG } from '../../utils/constants';
 import { Button } from '../../components/common/Button';
-import { Card } from '../../components/common/Card';
 import { classNames } from '../../utils/helpers';
 
 interface WeatherSelectorProps {

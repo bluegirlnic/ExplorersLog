@@ -1,4 +1,4 @@
-import { Quest } from '../../types';
+import type { Quest } from '../../types';
 import { Card } from '../common/Card';
 import { QUEST_TYPE_CONFIG, DIFFICULTY_LABELS } from '../../utils/constants';
 import { CheckCircle2, Circle, Clock, Mountain } from 'lucide-react';

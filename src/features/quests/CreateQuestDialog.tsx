@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { X, Plus, Trash2 } from 'lucide-react';
 import { useQuestStore } from '../../stores/useQuestStore';
-import {
+import type {
   QuestType,
   Difficulty,
   FrameworkElement,

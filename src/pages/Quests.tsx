@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import { Plus, Filter } from 'lucide-react';
+import { Plus } from 'lucide-react';
 import { useQuestStore } from '../stores/useQuestStore';
 import { useDailyStore } from '../stores/useDailyStore';
 import { QuestCard } from '../components/quest/QuestCard';
 import { CreateQuestDialog } from '../features/quests/CreateQuestDialog';
 import { Button } from '../components/common/Button';
 import { Card } from '../components/common/Card';
-import { QuestType, QuestStatus } from '../types';
+import type { QuestType, QuestStatus } from '../types';
 import { QUEST_TYPE_CONFIG } from '../utils/constants';
 import { classNames } from '../utils/helpers';
 

@@ -1,4 +1,4 @@
-import { Quest } from '../../types';
+import type { Quest } from '../../types';
 
 interface ProgressTrailProps {
   quest: Quest;
@@ -23,7 +23,7 @@ export function ProgressTrail({ quest }: ProgressTrailProps) {
 
       {/* Waypoints */}
       <div className="space-y-6">
-        {waypoints.map((waypoint, index) => (
+        {waypoints.map((waypoint) => (
           <div key={waypoint.id} className="relative flex items-start">
             {/* Marker */}
             <div className="relative z-10">
